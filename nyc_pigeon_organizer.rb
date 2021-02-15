@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
           !new_array[name][key] = []
           binding.pry
         end
+        new_array[name][key] << first_key
       end
     end
     new_array
