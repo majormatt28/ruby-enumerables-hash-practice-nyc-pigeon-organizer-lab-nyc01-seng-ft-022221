@@ -10,7 +10,6 @@ def nyc_pigeon_organizer(data)
         end
         if !new_array[name][key]
           !new_array[name][key] = []
-          binding.pry
         end
         new_array[name][key] << first_key
       end
